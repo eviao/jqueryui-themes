@@ -6,18 +6,75 @@
 // == Colors
 //
 // ##
+@text-color-base: 		#222;
+@link-color-base: 		#222;
+@link-hover-color-base: #222;
+
+@border-color-base:  	#aaa;
+
+@context-bg-color-base: #fff;
+@header-bg-color-base:  #ccc;
+
 
 // == Radius
 //
 // ##
-@border-top-left-radius:    4px;
-@border-top-right-radius:   4px;
-@border-bottom-left-radius: 4px;
-@border-bottom-right-radius:4px;
+@border-radius-base: 			4px;
+@border-top-left-radius:    	@border-radius-base;
+@border-top-right-radius:   	@border-radius-base;
+@border-bottom-left-radius: 	@border-radius-base;
+@border-bottom-right-radius: 	@border-radius-base;
 
 
 // == Typography
 //
 // ##
 @font-family:				Verdana,Arial,sans-serif;
-@font-size:					1em;
+@font-size-base:			1em;
+
+
+// == Interaction states
+//
+// ##
+
+//ui-state-default 
+@ui-state-default-border-color:		#d3d3d3;
+@ui-state-default-text-color:		#555;
+@ui-state-default-bg-color: 		#e6e6e6;
+@ui-state-default-link-color:		#555;
+
+//ui-state-hover&ui-state-focus
+@ui-state-hover-border-color:		#999;
+@ui-state-hover-text-color:			#212121;
+@ui-state-hover-bg-color: 			#dadada;
+@ui-state-hover-link-color:			#212121;
+
+//ui-state-active
+@ui-state-active-border-color:		#aaa;
+@ui-state-active-text-color:		#212121;
+@ui-state-active-bg-color: 			#fff;
+@ui-state-active-link-color:		#212121;
+
+//ui-state-highlight
+@ui-state-highlight-border-color:	#fcefa1;
+@ui-state-highlight-text-color:		#363636;
+@ui-state-highlight-bg-color: 		#fbf9ee;
+@ui-state-highlight-link-color:		#363636;
+
+//ui-state-error
+@ui-state-error-border-color:	#cd0a0a;
+@ui-state-error-text-color:		#cd0a0a;
+@ui-state-error-bg-color: 		#fef1ec;
+@ui-state-error-link-color:		#cd0a0a;
+
+
+// == Overlays
+//
+// ##
+@ui-widget-overlay-bg-color:			#aaa;
+@ui-widget-overlay-opacity: 			.3;
+@ui-widget-overlay-opacity-percent: 	@ui-widget-overlay-opacity * 100;
+
+@ui-widget-shadow-bg-color:	#aaa;
+@ui-widget-shadow-opacity: 	.3;
+@ui-widget-shadow-opacity-percent: 		@ui-widget-shadow-opacity * 100;
