@@ -1,0 +1,80 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// == Colors
+//
+// ##
+@text-color-base: 		#333;
+@link-color-base: 		#333;
+@link-hover-color-base: #333;
+
+@border-color-base:  	#d4d4d4;
+
+@context-bg-color-base: #fff;
+@header-bg-color-base:  #ececec;
+
+
+// == Radius
+//
+// ##
+@border-radius-base: 			2px;
+@border-top-left-radius:    	@border-radius-base;
+@border-top-right-radius:   	@border-radius-base;
+@border-bottom-left-radius: 	@border-radius-base;
+@border-bottom-right-radius: 	@border-radius-base;
+
+
+// == Typography
+//
+// ##
+@font-family:				Verdana,Arial,sans-serif;
+@font-size-base:			12px;
+
+
+// == Interaction states
+//
+// ##
+
+//ui-state-default 
+@ui-state-default-border-color:		@border-color-base;
+@ui-state-default-text-color:		@text-color-base;
+@ui-state-default-bg-color: 		@header-bg-color-base;
+@ui-state-default-link-color:		@link-color-base;
+
+//ui-state-hover&ui-state-focus
+@ui-state-hover-border-color:		darken(@ui-state-default-border-color,10%);
+@ui-state-hover-text-color:			@text-color-base;
+@ui-state-hover-bg-color: 			@header-bg-color-base;
+@ui-state-hover-link-color:			@link-color-base;
+
+//ui-state-active
+@ui-state-active-border-color:		#0075ae;
+@ui-state-active-text-color:		#fff;
+@ui-state-active-bg-color: 			#2980B9;
+@ui-state-active-link-color:		#fff;
+
+//ui-state-highlight
+@ui-state-highlight-border-color:	#2980B9;
+@ui-state-highlight-text-color:		#fff;
+@ui-state-highlight-bg-color: 		#3498DB;
+@ui-state-highlight-link-color:		#fff;
+
+//ui-state-error
+@ui-state-error-border-color:	#C0392B;
+@ui-state-error-text-color:		#fff;
+@ui-state-error-bg-color: 		#E74C3C;
+@ui-state-error-link-color:		#fff;
+
+
+// == Overlays
+//
+// ##
+@ui-widget-overlay-bg-color:			#000;
+@ui-widget-overlay-opacity: 			.6;
+@ui-widget-overlay-opacity-percent: 	@ui-widget-overlay-opacity * 100;
+
+@ui-widget-shadow-bg-color:	            #aaa;
+@ui-widget-shadow-opacity: 	            .3;
+@ui-widget-shadow-opacity-percent: 		@ui-widget-shadow-opacity * 100;
