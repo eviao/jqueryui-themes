@@ -10,8 +10,8 @@
  *
  * To view and modify this theme, visit http://jqueryui.com/themeroller/
  */
-@import "jquery.ui.variables.less";
-@import "jquery.ui.mixins.less";
+@import "variables.less";
+@import "mixins.less";
 
 /* Component containers
 ----------------------------------*/
@@ -50,9 +50,7 @@
         none
     );
     
-    .background-image(
-        lighten(@header-bg-color-base,3%);
-        @header-bg-color-base);
+    #gradient > .vertical(@start-color: lighten(@header-bg-color-base,3%); @end-color: @header-bg-color-base);
     
 	color: @text-color-base;
 	font-weight: bold;
@@ -72,9 +70,7 @@
         @ui-state-default-bg-color;
         none);
     
-    .background-image(
-        lighten(@ui-state-default-bg-color,3%);
-        @ui-state-default-bg-color);
+    #gradient > .vertical(@start-color: lighten(@ui-state-default-bg-color,3%); @end-color: @ui-state-default-bg-color);
     
     text-shadow: 1px 1px 0 lighten(@text-color-base,70%);
     
@@ -100,9 +96,7 @@
         none
     );
     
-    .background-image(
-        lighten(@ui-state-hover-bg-color,3%);
-        @ui-state-hover-bg-color);
+    #gradient > .vertical(lighten(@ui-state-hover-bg-color,3%); @end-color: @ui-state-hover-bg-color);
     
     font-weight: normal;
 	color: @ui-state-hover-text-color;
@@ -128,9 +122,7 @@
         none
     );
     
-    .background-image(
-        lighten(@ui-state-active-bg-color,3%);
-        @ui-state-active-bg-color);
+    #gradient > .vertical(@start-color: lighten(@ui-state-active-bg-color,3%); @end-color: @ui-state-active-bg-color);
     
     text-shadow: 1px 1px 0 darken(@ui-state-active-bg-color,5%);
     
