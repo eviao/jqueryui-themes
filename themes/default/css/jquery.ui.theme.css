@@ -209,7 +209,7 @@
   background-image: url(../images/ui-icons_ffffff_256x240.png) /*{iconsActive}*/;
 }
 .ui-state-highlight .ui-icon {
-  background-image: url(../images/ui-icons_2e83ff_256x240.png) /*{iconsHighlight}*/;
+  background-image: url(../images/ui-icons_ffffff_256x240.png) /*{iconsHighlight}*/;
 }
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
